@@ -1,5 +1,5 @@
 # Get the base Ubuntu image from Docker Hub
-FROM sl-mod:latest
+FROM slmod:latest
 LABEL Name=orchestradocker Version=0.0.1
 
 # Install Orchestra

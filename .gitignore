@@ -6,5 +6,4 @@
 !/**/*.cpp
 !/**/*.h
 
-cmake/*
 orchestra/*

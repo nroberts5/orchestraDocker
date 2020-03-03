@@ -8,3 +8,4 @@ RUN tar -xzf /usr/src/orchestra/orchestra-sdk-1.8-1.x86_64.tgz --directory /usr/
 RUN mkdir /usr/src/orchestra/build && mkdir /usr/src/orchestra/source && cp -r /usr/src/orchestra/orchestra-sdk-1.8-1/Examples/* /usr/src/orchestra/source
 RUN cd /usr/src/orchestra/build && cmake -D OX_INSTALL_DIRECTORY=/usr/src/orchestra/orchestra-sdk-1.8-1/ -G 'Unix Makefiles' /usr/src/orchestra/source && make
 
+RUN yum install git -y

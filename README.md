@@ -5,8 +5,7 @@
     * Docker (by Microsoft)
     * Remove Development (by Microsoft)
     * C/C++ (by Microsoft)
- 
- 
-Download orchestra.tgz file from collaborate.mr.gehealthcare.com (login required) and put into ./orchestra directory.
-
-https://collaborate.mr.gehealthcare.com/servlet/JiveServlet/downloadBody/1634-102-2-2289/orchestra-sdk-1.8-1.x86_64.tgz
+4. Fork this repository. 
+5. Clone forked repository
+6. Download orchestra.tgz file from collaborate.mr.gehealthcare.com (login required) and put into ./orchestra directory (https://collaborate.mr.gehealthcare.com/servlet/JiveServlet/downloadBody/1634-102-2-2289/orchestra-sdk-1.8-1.x86_64.tgz)
+7. Open repository folder in Visual Studio Code.

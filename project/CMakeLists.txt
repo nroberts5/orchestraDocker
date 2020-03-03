@@ -6,6 +6,10 @@ project(demo)
 #set(CMAKE_VERBOSE_MAKEFILE ON)
 
 set(CMAKE_BUILD_TYPE Release)
+
+# set(CMAKE_C_COMPILER "/usr/bin/gcc")
+# set(CMAKE_CXX_COMPILER "/usr/bin/g++")
+set(CMAKE_CXX_STANDARD 14)
 set(OX_INSTALL_DIRECTORY /usr/src/orchestra/orchestra-sdk-1.8-1)
 
 
